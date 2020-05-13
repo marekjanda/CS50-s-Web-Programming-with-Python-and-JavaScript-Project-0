@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My books</title>
+    <link rel="stylesheet" href="/C:\Users\janda\Desktop\CS50W\project0\css\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
+      <a class="navbar-brand" href="#">My book log</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="summary.html">Summary <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="current.html">Now reading <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="wish.html">Wishlist <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="ranking.html">My ranking <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid welcomeMessage">
+      <div class="container">
+        <h1 class="display-4">I am currently reading</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <figure>
+            <img src="images/Really.jpg" alt="Clarkson - Really cover page" title="Clarkson - Really cover page" class="cover">
+          </figure>
+        <div class="col-sm">
+          <ul id="info">
+            <li><b>Title: </b><i>Really?</i></li>
+            <li><b>Author: </b><i>Jeremy Clarkson</i></li>
+            <li><b>Year: </b><i>2019</i></li>
+            <li><b>Genre: </b><i>Non-fiction</i></li>
+            <li><b>About the Author: </b>
+              <div id="clarkson">
+                 <i>
+                  Jeremy Charles Robert Clarkson (born 11 April 1960) is an English broadcaster, journalist and writer who specialises
+                  in motoring. He is best known for co-presenting the motoring programmes Top Gear, from 2002 until 2015, and The Grand Tour
+                  alongside Richard Hammond and James May. He also currently writes weekly columns for The Sunday Times and The Sun.
+                </i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <article id="opinion">
+            <h2>Little about:</h2>
+            <p>
+              From his first job as a travelling sales rep selling Paddington Bears to his latest incarnation as gentleman farmer,
+              Jeremy Clarkson's love of cars has seen him through some deeply trying times.
+            </p>
+            <p>
+                And in a world so persistently infuriating there's sometimes nothing for it
+                but to throw up your hands and ride full-throttle over the speed-bumps.
+            </p>
+            <p>
+              But as Jeremy raced through there was plenty to ponder along the way, including:
+              <ul>
+                <li>Why nothing good has ever been achieved in a meeting.</li>
+                <li>The side effect of muesli.</li>
+                <li>How to navigate London when every single road is being dug up at once.</li>
+                <li>Why we are forced to share the planet with people who read online reviews of dishwashers?</li>
+                <li>And what, exactly, is the point of a driverless car?</li>
+              </ul>
+              It's testing stuff, but happily Jeremy's not quite reached the end of his tether yet. Fuelled by hi-octane enthusiasm and irrepressible curiosity, he's put his foot down again.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
